@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <blockquote>
+        <h1> Add REcord</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="name">Name</label><br>
+            <input type="text" name="name"><br>
+
+            <label for="email">Email</label><br>
+            <input type="text" name="email"><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password"><br>
+
+            <label>Gender</label><br>
+            <label><input type="radio" name="Gender" value="male">Male</label><br>
+            <label><input type="radio" name="Gender" value="female">Female</label><br>
+
+            <label>Language</label><br>
+            <label><input type="checkbox" name="language[]" value="C">C</label><br>
+            <label><input type="checkbox" name="language[]" value="java">Java</label><br>
+            <label><input type="checkbox" name="language[]" value="php">Php</label><br>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option disabled selected>---Select Country---</option>
+                <option value="nepal">Nepal</option>
+                <option value="india">India</option>
+                <option value="china">China</option>
+            </select>
+
+            <label for="dob">DOB</label>
+            <input type="date" name="dob"><br><br>
+
+            <label for="profile">Profile</label><br>
+            <input type="file" name="profile"><br><br>
+
+            <label for="description">Description</label><br>
+            <textarea name="description" id="description"></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </blockquote>
+</body>
+
+</html>
