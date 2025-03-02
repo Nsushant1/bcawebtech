@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Details>
+    <user>
+        <ID>1</ID>
+        <Name>Sushant Neupane</Name>
+        <Email>nsushaant72@gmail.com</Email>
+        <Password>*********</Password>
+        <Role>Backend Developer</Role>
+    </user>
+    <user1>
+        <ID>1</ID>
+        <Name>Sushan Neupane</Name>
+        <Email>nsusht72@gmail.com</Email>
+        <Password>*****</Password>
+        <Role>Frontend Developer</Role>
+    </user1>
+</Details>
